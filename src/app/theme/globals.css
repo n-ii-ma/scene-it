@@ -24,6 +24,18 @@
     --error: 0 78% 60%; /* Red */
     --error-foreground: 0 0% 100%; /* White */
 
+    --popover: 0 0% 100%; /* White */
+    --popover-foreground: 240 10% 3.9%; /* Charcoal Gray */
+
+    --muted: 240 4.8% 95.9%; /* Very Light Gray */
+    --muted-foreground: 240 3.8% 46.1%; /* Charcoal Gray */
+
+    --accent: 240 4.8% 95.9%; /* Very Light Gray */
+    --accent-foreground: 240 5.9% 10%; /* Charcoal Gray */
+
+    --destructive: 0 84.2% 60.2%; /* Red */
+    --destructive-foreground: 0 0% 98%; /* White */
+
     --border: 220 8% 85%; /* Light Gray */
     --input: 220 8% 85%; /* Light Gray */
     --ring: 217 87% 61%; /* Soft Blue */
@@ -50,6 +62,18 @@
 
     --error: 348 83% 65%; /* Rose Red */
     --error-foreground: 0 0% 7%; /* Near Black */
+
+    --popover: 0 0% 10%; /* Very Dark (Near Black) */
+    --popover-foreground: 240 7% 90%; /* Light Gray */
+
+    --muted: 240 5% 25%; /* Darker Gray */
+    --muted-foreground: 240 3% 75%; /* Light Gray */
+
+    --accent: 193 95% 50%; /* Bright Cyan */
+    --accent-foreground: 240 3% 20%; /* Darker Gray */
+
+    --destructive: 0 84.2% 50%; /* Rose Red */
+    --destructive-foreground: 0 0% 98%; /* White */
 
     --border: 0 0% 15%; /* Dark Gray */
     --input: 0 0% 15%; /* Dark Gray */
