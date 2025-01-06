@@ -2,6 +2,7 @@ import "./theme/globals.css";
 import { inter, roboto } from "./theme/fonts";
 
 import { ThemeProvider } from "@/components/theme-provider";
+import { ModeToggle } from "@/components/ui/mode-toggle";
 
 import type { Metadata } from "next";
 
@@ -29,6 +30,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <div className="fixed bottom-4 right-4">
+            <ModeToggle />
+          </div>
         </ThemeProvider>
       </body>
     </html>
