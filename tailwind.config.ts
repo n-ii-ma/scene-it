@@ -45,6 +45,10 @@ const config: Config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily: {
+        primary: ["var(--font-inter)"],
+        secondary: ["var(--font-roboto)"],
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
