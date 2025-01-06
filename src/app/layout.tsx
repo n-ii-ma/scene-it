@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${roboto.variable} antialiased`}
+      className={`${inter.variable} ${roboto.variable} antialiased scroll-smooth overflow-x-hidden`}
     >
       <body>
         <ThemeProvider
@@ -29,7 +29,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <main>{children}</main>
           <div className="fixed bottom-4 right-4">
             <ModeToggle />
           </div>
