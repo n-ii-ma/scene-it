@@ -1,3 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* White */
+    --foreground: 215 20% 16%; /* Charcoal Gray */
+    --card: 220 8% 95%; /* Very Light Gray */
+    --card-foreground: 215 20% 16%; /* Charcoal Gray */
+
+    --primary: 217 87% 61%; /* Soft Blue */
+    --primary-foreground: 0 0% 100%; /* White */
+
+    --secondary: 36 89% 62%; /* Warm Amber */
+    --secondary-foreground: 215 20% 16%; /* Charcoal Gray */
+
+    --success: 158 73% 52%; /* Green */
+    --success-foreground: 0 0% 100%; /* White */
+
+    --warning: 46 88% 55%; /* Yellow */
+    --warning-foreground: 215 20% 16%; /* Charcoal Gray */
+
+    --error: 0 78% 60%; /* Red */
+    --error-foreground: 0 0% 100%; /* White */
+
+    --border: 220 8% 85%; /* Light Gray */
+    --input: 220 8% 85%; /* Light Gray */
+    --ring: 217 87% 61%; /* Soft Blue */
+
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 0 0% 7%; /* Near Black */
+    --foreground: 215 10% 83%; /* Light Gray */
+    --card: 0 0% 15%; /* Dark Gray */
+    --card-foreground: 215 10% 83%; /* Light Gray */
+
+    --primary: 190 89% 55%; /* Bright Cyan */
+    --primary-foreground: 0 0% 7%; /* Near Black */
+
+    --secondary: 24 95% 57%; /* Rich Orange */
+    --secondary-foreground: 215 10% 83%; /* Light Gray */
+
+    --success: 153 57% 50%; /* Emerald */
+    --success-foreground: 0 0% 7%; /* Near Black */
+
+    --warning: 48 94% 58%; /* Goldenrod */
+    --warning-foreground: 215 10% 83%; /* Light Gray */
+
+    --error: 348 83% 65%; /* Rose Red */
+    --error-foreground: 0 0% 7%; /* Near Black */
+
+    --border: 0 0% 15%; /* Dark Gray */
+    --input: 0 0% 15%; /* Dark Gray */
+    --ring: 190 89% 55%; /* Bright Cyan */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
